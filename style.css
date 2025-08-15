@@ -44,7 +44,7 @@ html {
     font-size: 1.8vh;
 }
 
-.navbar .nav-text2 {
+.navbar .nav-text2 .nav-text2-icons {
     display: flex;
     align-items: center;
     gap: 25px;
@@ -53,6 +53,7 @@ html {
 
 .navbar .nav-text2 i {
     font-size: 2vh;
+    transition: 0.2s ease-in-out;
 }
 
 .navbar .nav-text2 .ri-menu-line {
@@ -62,6 +63,19 @@ html {
 .navbar .nav-text2 .ri-close-line {
     display: none;
 }
+
+.navbar .nav-text2-icons i:hover{
+    transform: scale(1.5);
+}
+
+.navbar .nav-text2 p {
+    transition: 0.2s ease-in-out;
+}
+
+.navbar .nav-text2 p:hover {
+    transform: scale(1.05);
+}
+
 
 .herosection {
     position: relative;
